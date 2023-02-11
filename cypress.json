@@ -1,6 +1,7 @@
 {
     "baseUrl": "https://notes-serverless-app.com/" ,
     "chromeWebSecurity" : false,
-    "experimentalStudio" : true
+    "experimentalStudio" : true,
+    "projectId": "chke48mc"
     
 }
