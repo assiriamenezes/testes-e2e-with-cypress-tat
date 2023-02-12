@@ -16,7 +16,7 @@ jobs:
     - name: Run ESLint
       run: npm run lint
     - name: TEMPORARY act workaround
-      run: apt update && apt install zstd
+      run: sudo apt install zstd
   cypress-tests-desktop:
     needs: eslint
     runs-on: ubuntu-latest
